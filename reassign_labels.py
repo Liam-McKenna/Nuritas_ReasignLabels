@@ -34,10 +34,13 @@ def reassign_labels(n):
 #                 break
 #             else:
 #                 found = False
-#         print('found pep_'+str(i+1)+':' + str(found))
+#         if found == False:
+#             print('found pep_'+str(i+1)+':' + str(found))
+#     if found == True:
+#         print('Perfect')
 
 
 if __name__ == '__main__':
     reassign_labels(10)
     reassign_labels(1000)
-    # reassign_labels(10000)
+    reassign_labels(10000)
