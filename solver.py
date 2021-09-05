@@ -16,4 +16,4 @@ def reassign_labels(peptides):
         # remove the lowest pep form the pop list to stop redundent checking
         peptidesPop.remove("pep_" + str(lowNum))
 
-    return [peptides]
+    return [peptides][0]
