@@ -23,7 +23,8 @@ def reassign_labels(n):
             "Please implement function 'reassign_labels' in solver.py file.")
 
     print(f"...done in {round((time() - time_start), 3)}s")
-    test(solution)
+
+#     test(solution)
 
 
 # def test(solution):
@@ -37,7 +38,7 @@ def reassign_labels(n):
 #         if found == False:
 #             print('found pep_'+str(i+1)+':' + str(found))
 #     if found == True:
-#         print('Perfect')
+#         print('All records exist')
 
 
 if __name__ == '__main__':
